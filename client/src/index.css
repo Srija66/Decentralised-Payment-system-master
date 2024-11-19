@@ -1,0 +1,100 @@
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "pacifico", cursive;
+  
+}
+
+.gradient-bg-welcome {
+
+
+  background-color:#004d99;
+  background-image:
+  radial-gradient(at 0% 0%, hsla(78,16%,7%,1) 0, transparent 100%),
+  radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 80%),
+  radial-gradient(at 100% 0%, hsla(209,29%,20%,1) 0, transparent 10%);
+
+    
+  /*
+  url('https://previews.123rf.com/images/siarg/siarg1903/siarg190300023/124778529-cryptocurrency-around-the-world-seamless-background-crypto-currency-symbol.jpg'),
+  radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%)
+  background-image: url('https://cdn.pixabay.com/photo/2018/09/16/22/08/software-3682509__340.jpg');   
+    
+*/
+
+  }
+
+.gradient-bg-stats {
+  background-color:#00141a;
+  background-image: 
+  radial-gradient(at 0% 0%, hsla(78,16%,7%,1) 0, transparent 0%),
+  radial-gradient(at 50% 0%, hsla(193,100%,40%,1) 0, transparent 100%),
+  radial-gradient(at 100% 0%, hsla(207,29%,20%,1) 0, transparent 90%);
+}
+
+.gradient-bg-csts {
+  background-color:#e6faff;
+  background-image: 
+  radial-gradient(at 0% 0%, hsla(78,16%,7%,1) 0, transparent 100%),
+  radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 100%),
+  radial-gradient(at 100% 0%, hsla(207,29%,20%,1) 0, transparent 50%);
+}
+
+.gradient-bg-transactions {
+  background-color: #00a1cc;
+  background-image: 
+  radial-gradient(at 0% 0%, hsla(194,100%,60%,1) 0, transparent 30%),
+  radial-gradient(at 50% 0%, hsla(210,100%,30%,1) 0, transparent 80%),
+  radial-gradient(at 100% 0%, hsla(207,29%,20%,1) 0, transparent 0%);
+
+}
+
+
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.black-glassmorphism {
+  background: rgba(0, 0, 0, 1);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background-color:#5b96ff;
+  background-image:
+  
+  url('https://cdn.pixabay.com/photo/2016/11/10/05/09/bitcoin-1813503_960_720.jpg');
+  /* 
+  linear-gradient(to right top, #280537, #56034c, #890058, #bc005b, #eb1254),
+    https://cdn.pixabay.com/photo/2016/11/10/05/09/bitcoin-1813503_960_720.jpg?w=30px
+*/
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
